@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 987px;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 89px;
+  height: 26px;
+  margin-left: 20px;
+}
+
+.first-row ul li {
+  list-style: none;
+  display: inline-block;
+  font-size: 14px;
+  font-family: "open sans";
+  margin-left: 20px;
+  font-weight: 500;
+}
+
+#travel {
+  margin-right: 10px;
+}
+
+.first-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid #ffd520;
+  height: 48px;
+}
+
+.second-row ul li {
+  list-style: none;
+  font-size: 12px;
+  display: inline-block;
+  font-family: "open sans";
+  margin-left: 14px;
+  font-weight: 600;
+}
+
+.second-row {
+  background-color: #efefef;
+  height: 32px;
+  display: flex;
+  align-items: center;
+}
+
+.october-magazine {
+  max-width: 399px;
+  margin-top: 20px;
+}
+
+.banner {
+  display: flex;
+}
+
+.magazine-text-with-squares {
+  display: flex;
+  margin: 20px;
+  width: 130px;
+  justify-content: space-between;
+}
+
+.magazine-text {
+  display: inline-block;
+  font-size: 22px;
+  font-family: "open sans";
+}
+
+.square {
+  width: 8px;
+  height: 24px;
+  background-color: #ffd520;
+  display: inline-block;
+}
+
+h1 {
+  margin: 20px;
+  font-family: "ubuntu";
+  font-size: 52px;
+}
+
+.info-text {
+  font-size: 22px;
+  font-family: "open sans";
+  margin: 20px;
+}
+
+button {
+  margin: 20px;
+  width: 230px;
+  height: 48px;
+  font-family: "open sans";
+  font-size: 22px;
+  border: 0;
+}
+
+.print {
+  background-color: #ffd520;
+}
+
+.digital {
+  background-color: #222222;
+  color: #ffd520;
+}
